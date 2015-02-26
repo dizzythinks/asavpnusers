@@ -15,7 +15,7 @@ USAGE
           -i IGNORE, --ignore IGNORE
                                 Comma separated list of IP addresses to ignore
           -c COMMUNITY_STRING, --community_string COMMUNITY_STRING
-                                SNMP comunity string
+                                SNMP community string
           -o OUTPUT, --output OUTPUT
                                 Output type, option are json and text. Defaults to json'
 

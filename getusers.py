@@ -86,7 +86,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Get connected users from ASA via SNMP')
     parser.add_argument('-f', '--firewall', action='store', required=True, help='Address of the Cisco ASA')
     parser.add_argument('-i', '--ignore', action='store', default='', help='Comma separated list of IP addresses to ignore')
-    parser.add_argument('-c', '--community_string', action='store', required=True, help='SNMP comunity string')
+    parser.add_argument('-c', '--community_string', action='store', required=True, help='SNMP community string')
     parser.add_argument('-o', '--output', action='store', default='json', help='Output type, option are json and text. Defaults to json')
     return parser.parse_args()
 
